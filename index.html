@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<title>Conversor de Letras | Na18k</title>
+	<script type="text/javascript" src="script.js" defer></script>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<nav class="nav-header">
+			<ul class="header-links">
+				<li><a href="https://github.com/Na18k">Na18k</a></li>
+				<li><a href="https://github.com/Na18k/Conversor-de-Letras">Fonte do Projeto</a></li>
+				<li><a href="https://github.com/Na18k/Conversor-de-Letras/issues/new">Reporte algum problema!</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+
+		<section class="inputs">
+			<textarea class="entradaTexto" id="entradaTexto" placeholder="Digite algo aqui!" ></textarea>
+
+			<select class="idioma" id="idioma">
+				<option value="default">Default</option>
+				<option value="kainan">Letras e Números de Kainan</option>
+				<option value="macon">Cifra Maçonica ou Cifra de Pigpen</option>
+				<option value="rune">Runa</option>
+				<option value="galactic">Galactic Alphabet</option>
+				<option value="templar">Templários Cipher</option>
+			</select>
+
+			<button id="traduzir">Traduzir</button>
+		</section>
+		
+
+		<!-- Não mexa nessa "Section", ela é manipulada dinâmicamnete pelo "script.js" -->
+		<section class="traducao" id="traducao">
+
+			<p id="textoTraduzido" class="textoTraduzidoDefault">Olá, digite algo para mim :)</p>
+
+		</section>
+		<section id="informacoes" class="informacoes informacoesEscondido">
+
+			<!-- <h3>Regras de "Letras e Números de Kainan"</h3>
+			<p class="subtitulo">Como esse idioma possui caracteres adicionais, que representam estados diferentes na gráfia, foi necessário a substituição de caracteres por outros, para que esteja em si completo o alfabeto.</p>
+			<p class="legenda">Legenda: Se possuir "<b class="jaAplicadaComJS">0=0</b>" representa que essa regra já é adicionada automaticamente; já se possuir "<b class="naoAplicadaComJS">0=0</b>" então a regra deve ser posta pelo próprio usuário!</p>
+			<div class="regras">
+					<p><b class="jaAplicadaComJS">0=0</b> _ : O simbolo que compreende Underline, representa a caractere "<b class="kainan">_</b>", que por regra é colocado após, quando uma letra se repete em uma palavra.</p>
+
+					<p><b class="naoAplicadaComJS">0=0</b> , : O simbolo que compreende Virgula, representa a caractere "<b class="kainan">,</b>", que por regra é colocado quando se coloca após, um pausa em uma frase.</p>
+
+					<p><b class="jaAplicadaComJS">0=0</b> ^ : O simbolo que compreende Acento circunflexo, representa a caractere "<b class="kainan">^</b>", que por regra é colocado quando há a junção de NH, CH, LH, substituindo somente a letra "H" no caso.</p>
+
+					<p><b class="jaAplicadaComJS">0=0</b> ~ : O simbolo que compreende Acento Til, representa a caractere "<b class="kainan">~</b>", que por regra é colocado quando uma letra está totalmente sozinha.</p>
+
+					<p><b class="naoAplicadaComJS">0=0</b> ${acentoGrave} : O simbolo que compreende Acento Grave, representa a caractere "<b class="kainan">${acentoGrave}</b>", que por regra é colocado após, quando uma letra é muda.</p>
+
+					<p class="proibido">Não utilize letras acentuadas ou modificadas (Ex: À, Á, Ã, Â, Ä, Ê, Ë, etc...), a entrada é sensivel a esse alfabeto;</p>
+			</div> -->
+			
+			
+		</section>
+	</main>
+</body>
+</html>

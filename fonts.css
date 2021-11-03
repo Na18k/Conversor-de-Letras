@@ -1,0 +1,49 @@
+html {
+	font-family: consolas;
+}
+/* ========== Font Faces ==========*/
+@font-face {
+	  font-family: Letras E Numeros De Kainan;
+	  src: url('fonts/LetrasENumerosDeKainan-Regular.ttf') format('truetype');
+}
+@font-face {
+	  font-family: Maçon ou Pigpen;
+	  src: url('fonts/pigpen-cipher.otf') format('truetype');
+}
+@font-face {
+	  font-family: Rune;
+	  src: url('fonts/FUTHA___.TTF') format('truetype');
+}
+@font-face {
+	  font-family: Galactic;
+	  src: url('fonts/galactic-simple.ttf') format('truetype');
+}
+@font-face {
+	  font-family: Cifra Templária;
+	  src: url('fonts/TemplarsCipherPlus.otf') format('truetype');
+}
+
+/*	========== Data Font ==========	*/
+.kainan {
+	font-family: Letras E Numeros De Kainan;
+	font-size: 2em;
+	/*font-weight: bold;*/
+	letter-spacing: 1px;
+}
+.macon {
+	font-family: Maçon ou Pigpen;
+	font-size: 1.6em;
+}
+.rune {
+	font-family: rune;
+	letter-spacing: 2px;
+	font-size: 1.6em;
+}
+.galactic {
+	font-family: Galactic;
+	line-height: 160%;
+}
+.templar {
+	font-family: Cifra Templária;
+	font-size: 1.6em;
+}

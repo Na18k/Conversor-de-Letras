@@ -1,0 +1,5 @@
+The Templars Cipher is a simple substitution cipher that replaces letters with symbols that are fragments of the Maltese Cross, icon of Order of the Temple, and is claimed to have been used by the Knights Templar. As early as the 12th century.
+
+I noticed it didn't seem to exist as a font yet so I put one together along with some extra symbols that simply fit the look even if those arent part of the cipher.
+
+Note: Back when this cipher was created, the letter "J" had not been established yet, and will use the same symbol as "I"
